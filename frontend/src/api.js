@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://student-auth-u4rg.onrender.com/api"
+baseURL: "https://student-auth-u4rg.onrender.com/api"
 });
 
 API.interceptors.request.use((req) => {
